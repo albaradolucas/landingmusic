@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/e1f51c235c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="content-nav">
+        <h1 class="title">Bienvenido a</h1>
+        <div class="row">
+          <span class="mark">!Go</span>
+          <div class="animated-text">
+            <div class="line division">Friends</div>
+            <div class="line division">Music</div>
+          </div>
+        </div>
+      </header>
+      <section class="container-form">
+        <div class="content-form">
+          <div class="col-1">
+            <h2>Disfruta de la música</h2>
+            <p>Encuentra artistas, canciones, crea tus propias playlists</p>
+            <p>Comienza ahora, es ¡Gratis!</p>
+            <button class="btn">
+              <a href="#">Registrarme</a>
+            </button>
+          </div>
+          <div class="col-2">
+            <div class="player-container">
+              <div class="img-container">
+                <img class="active" src="./assets/shinunoga.jpg" alt="cover" />
+              </div>
+              <h2 class="title">Shinunoga E-wa</h2>
+              <h3 class="artist">Fujii Kaze</h3>
+              <div class="progress-container">
+                <div class="progress"></div>
+                <div class="duration-wrapper">
+                  <span id="current-time">2:18</span>
+                  <span id="duration">3:11</span>
+                </div>
+              </div>
+              <div class="player-controls">
+                <i class="fas fa-backward" id="prev" title="Previous"></i>
+                <i class="fas fa-play main-button" id="play" title="Play"></i>
+                <i class="fas fa-forward" id="next" title="Next"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <p><b>© Derechos de marca reservados. !Go Friends Community 2017</b></p>
+      </footer>
+    </div>
+  </body>
+</html>
